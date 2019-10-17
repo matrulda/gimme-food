@@ -1,0 +1,63 @@
+{
+  "recipe": {
+    "name": "Linscurry med kokosmjölk och lime",
+    "url": "'https://www.ica.se/recept/linscurry-med-kokosmjolk-och-lime-720274/",
+    "portions": 4,
+    "ingredients": {
+      "Ris": {
+        "amount": 4,
+        "amount_type": "portion"},
+      "Torkade röda linser": {
+        "amount": 0.2,
+        "amount_type": "liter"},
+      "Gul lök": {
+        "amount": 1,
+        "amount_type": "piece"},
+      "Färsk ingefära": {
+        "amount": 0.015,
+        "amount_type": "liter"},
+      "Sambal oelek": {
+        "amount": 0.005,
+        "amount_type": "liter"},
+      "Olja": {
+        "amount": 0.015,
+        "amount_type": "liter"},
+      "Vitlöksklyfta": {
+        "amount": 2,
+        "amount_type": "piece"},
+      "Curry": {
+        "amount": 0.0075,
+        "amount_type": "liter"},
+      "Tomatpuré": {
+        "amount": 0.01,
+        "amount_type": "liter"},
+      "Grönsaksbuljong": {
+        "amount": 0.5,
+        "amount_type": "liter"},
+      "Kokosmjölk": {
+        "amount": 0.4,
+        "amount_type": "liter"},
+      "Blomkålshuvud": {
+        "amount": 0.5,
+        "amount_type": "piece"},
+      "Körsbärstomater": {
+        "amount": 250,
+        "amount_type": "gram"},
+      "Lime": {
+        "amount": 1,
+        "amount_type": "piece"},
+      "Salt": {
+        "amount": "unknown",
+        "amount_type": "unknown"},
+      "Peppar": {
+        "amount": "unknown",
+        "amount_type": "unknown"},
+      "Babyspenat": {
+        "amount": 65,
+        "amount_type": "gram"},
+      "Cashewnötter": {
+        "amount": 0.1,
+        "amount_type": "liter"}
+    }
+  }
+}

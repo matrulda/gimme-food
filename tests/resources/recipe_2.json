@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "name": "Fruktig kokosmjölksgryta",
+    "url": "https://undertian.com/recept/fruktig-kokosmjolksgryta/",
+    "portions": 8,
+    "ingredients": {
+      "Kokosmjölk": {"amount": 0.8, "amount_type": "liter"},
+      "Gul lök": {"amount": 2, "amount_type": "piece"},
+      "Curry": {"amount": 0.03, "amount_type": "liter"},
+      "Vitlöksklyfta": {"amount": 2, "amount_type": "piece"},
+      "Kokade kikärtor": {"amount": 1, "amount_type": "liter"},
+      "Jordnötssmör": {"amount": 0.05, "amount_type": "liter"},
+      "Krossade tomater": {"amount": 400, "amount_type": "gram"},
+      "Banan": {"amount": 3, "amount_type": "piece"},
+      "Frusen mango": {"amount": 225, "amount_type": "gram"},
+      "Grönsaksbuljongtärning": {"amount": 1, "amount_type": "piece"},
+      "Salt": {"amount": "unknown", "amount_type": "unknown"},
+      "Peppar": {"amount": "unknown", "amount_type": "unknown"},
+      "Olja": {"amount": "unknown", "amount_type": "unknown"}
+    }
+  }
+}
