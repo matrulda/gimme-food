@@ -7,7 +7,7 @@ The main idea is to be able to save your favorite recipes and to easily make a s
 ```
 git clone git@github.com:MatildaAslin/gimme-food.git
 cd gimme-food
-pip install .
+pip install -r requirements/prod .
 ```
 ## Recipe "database"
 The recipe database is a folder with json files, with one recipe in each.
