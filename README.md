@@ -18,7 +18,37 @@ The json recipes might stick around for adding the recipes to the database thoug
 
 ## Usage
 ```
-gimme_food --config my_config.yaml --number-of-recipes 2
+$ gimme_food -n 2
+The following recipes were chosen:
+Linscurry med kokosmjölk och lime: https://www.ica.se/recept/linscurry-med-kokosmjolk-och-lime-720274/
+Fruktig kokosmjölksgryta: https://undertian.com/recept/fruktig-kokosmjolksgryta/
+
+Here's your shopping list:
+4 portion Ris
+0.2 liter Torkade röda linser
+3 piece Gul lök
+0.01 liter Färsk ingefära
+0.01 liter Sambal oelek
+0.01 liter Olja
+4 piece Vitlöksklyfta
+0.04 liter Curry
+0.01 liter Tomatpuré
+0.5 liter Grönsaksbuljong
+1.2 liter Kokosmjölk
+0.5 piece Blomkålshuvud
+250 gram Körsbärstomater
+1 piece Lime
+Salt
+Peppar
+65 gram Babyspenat
+0.1 liter Cashewnötter
+1 liter Kokade kikärtor
+0.05 liter Jordnötssmör
+400 gram Krossade tomater
+3 piece Banan
+225 gram Frusen mango
+1 piece Grönsaksbuljongtärning
+
 ```
 
 ## Note regarding measures

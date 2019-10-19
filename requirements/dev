@@ -1,0 +1,2 @@
+-r prod
+pytest==5.2.1
