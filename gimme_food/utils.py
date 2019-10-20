@@ -36,3 +36,18 @@ def read_config(config):
         for key in config_dict:
             config_dict[key] = os.path.join(os.path.dirname(script_dir), config_dict[key])
     return config_dict
+
+def print_banner(version):
+    banner = """
+------------------------------------------------------------------
+  ________.__                           _____                 .___
+ /  _____/|__| _____   _____   ____   _/ ____\____   ____   __| _/
+/   \  ___|  |/     \ /     \_/ __ \  \   __\/  _ \ /  _ \ / __ |
+\    \_\  \  |  Y Y  \  Y Y  \  ___/   |  | (  <_> |  <_> ) /_/ |
+ \______  /__|__|_|  /__|_|  /\___  >  |__|  \____/ \____/\____ |
+        \/         \/      \/     \/                           \/
+-------------------------------------------------------------------
+                              v{}
+                                                                   """.format(version)
+
+    print(banner)
