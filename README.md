@@ -5,7 +5,7 @@ The main idea is to be able to save your favorite recipes and to easily make a s
 
 ## Installation
 ```
-git clone git@github.com:MatildaAslin/gimme-food.git
+git clone git@github.com:matrulda/gimme-food.git
 cd gimme-food
 pip install -r requirements/prod .
 ```
