@@ -12,7 +12,7 @@ pip install -r requirements/prod .
 ## Recipe "database"
 The recipe database is a folder with json files, with one recipe in each.
 Specify this folder in the config, see `config/config.yaml`. For data structure
-of recipes, see `tests/resources`.
+of recipes, see `gimme_food/examples`.
 **Note: This will most likely be replaced with a proper database later in development.
 The json recipes might stick around for adding the recipes to the database though.**
 

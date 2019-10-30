@@ -4,7 +4,7 @@ from gimme_food.entities.recipe import Recipe
 
 @pytest.fixture
 def recipe_dict():
-    with open("tests/resources/recipe_1.json") as json_file:
+    with open("gimme_food/examples/recipe_1.json") as json_file:
         return json.load(json_file)
 
 def test_make_recipe(recipe_dict):
