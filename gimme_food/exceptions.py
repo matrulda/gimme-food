@@ -1,0 +1,4 @@
+
+
+class RecipeNotInProperJsonFormat(Exception):
+    pass
