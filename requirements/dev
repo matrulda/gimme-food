@@ -1,4 +1,5 @@
 -r prod
 pytest==5.2.1
 pytest-cov==2.8.1
+codecov==2.0.15
 pytest-mock==1.11.2
