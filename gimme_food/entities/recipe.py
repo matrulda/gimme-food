@@ -21,4 +21,5 @@ class Recipe(object):
 
     def make_ingredients(self, ingredients):
         for name, amount_info in ingredients.items():
-            yield Ingredient(name, Amount(amount_info["amount"], amount_info["amount_type"]))
+            yield Ingredient(name, Amount.create_amount_subclass(amount_info["amount"],
+                                                                 amount_info["amount_type"]))

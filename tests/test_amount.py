@@ -1,18 +1,18 @@
 import pytest
-from gimme_food.entities.amount import Amount
+from gimme_food.entities.amount import Amount, AmountPiece, AmountLiter, AmountUnknown
 from gimme_food.entities.amount import IncompatibleAmountTypes
 
 @pytest.fixture
 def amount_object():
-    return Amount(5, "piece")
+    return AmountPiece(5)
 
 @pytest.fixture
 def two_amount_objects():
-    return Amount(0.5, "liter"), Amount(0.3, "liter")
+    return AmountLiter(0.5), AmountLiter(0.3)
 
 @pytest.fixture
 def unknown_amount_object():
-    return Amount("unknown", "unknown")
+    return AmountUnknown("unknown")
 
 def test_print_amount(amount_object):
     amount_str = str(amount_object)
