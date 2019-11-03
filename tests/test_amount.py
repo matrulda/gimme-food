@@ -21,7 +21,7 @@ def test_print_amount(amount_object):
 def test_sum(two_amount_objects):
     a, b = two_amount_objects
     c = a.sum(b)
-    assert str(c) == "0.8 liter"
+    assert str(c) == "8 dl"
 
 def test_sum_empty_dict(amount_object):
     a = amount_object.sum({})
@@ -40,3 +40,30 @@ def test_incompatible_types(amount_object, two_amount_objects):
     b = two_amount_objects[0]
     with pytest.raises(IncompatibleAmountTypes):
         a.sum(b)
+
+def test_convert_to_dl(two_amount_objects):
+    a, b = two_amount_objects
+    c = AmountLiter(0.15)
+    assert str(a) == "5 dl"
+    assert str(b) == "3 dl"
+    assert str(c) == "1 1/2 dl"
+
+def test_convert_to_msk():
+    a = AmountLiter(0.015)
+    b = AmountLiter(0.03)
+    assert str(a) == "1 msk"
+    assert str(b) == "2 msk"
+
+def test_convert_to_tsk():
+    a = AmountLiter(0.01)
+    assert str(a) == "2 tsk"
+
+def test_convert_to_krm():
+    a = AmountLiter(0.004)
+    assert str(a) == "4 krm"
+
+def test_convert_to_half_of_piece():
+    a = AmountPiece(0.5)
+    b = AmountPiece(1.5)
+    assert str(a) == "1/2 piece"
+    assert str(b) == "1 1/2 piece"
