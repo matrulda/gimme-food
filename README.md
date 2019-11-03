@@ -1,4 +1,6 @@
 # Gimme food
+[![Build Status](https://travis-ci.com/matrulda/gimme-food.svg?branch=master)](https://travis-ci.com/matrulda/gimme-food)
+
 A simple application for getting saved recipes and a shopping list for making the yummy food.
 The main idea is to be able to save your favorite recipes and to easily make a shopping list when it's time for the weekly shopping or "storhandling" as we say in Swedish.  
 **Note: This repo is under heavy development!**
