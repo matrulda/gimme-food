@@ -1,5 +1,6 @@
 import pytest
-from gimme_food.entities.amount import Amount, AmountPiece, AmountLiter, AmountUnknown
+from gimme_food.entities.amount import Amount, AmountPiece, AmountGram
+from gimme_food.entities.amount import AmountLiter, AmountUnknown
 from gimme_food.entities.amount import IncompatibleAmountTypes
 
 @pytest.fixture
@@ -67,3 +68,7 @@ def test_convert_to_half_of_piece():
     b = AmountPiece(1.5)
     assert str(a) == "1/2 piece"
     assert str(b) == "1 1/2 piece"
+
+def test_convert_to_kilogram():
+    a = AmountGram(1300)
+    assert str(a) == "1.3 kg"

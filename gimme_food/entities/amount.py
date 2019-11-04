@@ -105,6 +105,12 @@ class AmountGram(Amount):
     def get_name():
         return "gram"
 
+    def display_appropriate_size(self):
+        if self.quantity >= 1000:
+            return f"{round(self.quantity / 1000, 2)} kg"
+        else:
+            return f"{self.quantity} gram"
+
 
 class AmountUnknown(Amount):
 
