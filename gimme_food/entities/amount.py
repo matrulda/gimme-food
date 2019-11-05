@@ -93,7 +93,7 @@ class AmountPiece(Amount):
     def display_appropriate_size(self):
         if self.quantity % 1 == 0.5:
             if self.quantity == 0.5:
-                return "1/2 piece"
+                return "1/2"
             else:
                 return f"{round(self.quantity - 0.5)} 1/2"
         else:

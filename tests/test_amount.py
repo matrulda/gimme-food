@@ -17,7 +17,7 @@ def unknown_amount_object():
 
 def test_print_amount(amount_object):
     amount_str = str(amount_object)
-    assert amount_str == "5 piece"
+    assert amount_str == "5"
 
 def test_sum(two_amount_objects):
     a, b = two_amount_objects
@@ -26,15 +26,15 @@ def test_sum(two_amount_objects):
 
 def test_sum_empty_dict(amount_object):
     a = amount_object.sum({})
-    assert str(a) == "5 piece"
+    assert str(a) == "5"
 
 def test_sum_with_unknown(amount_object, unknown_amount_object):
     a = amount_object
     b = unknown_amount_object
     c = a.sum(b)
     d = b.sum(a)
-    assert str(c) == "5 piece"
-    assert str(d) == "5 piece"
+    assert str(c) == "5"
+    assert str(d) == "5"
 
 def test_incompatible_types(amount_object, two_amount_objects):
     a = amount_object
@@ -66,8 +66,8 @@ def test_convert_to_krm():
 def test_convert_to_half_of_piece():
     a = AmountPiece(0.5)
     b = AmountPiece(1.5)
-    assert str(a) == "1/2 piece"
-    assert str(b) == "1 1/2 piece"
+    assert str(a) == "1/2"
+    assert str(b) == "1 1/2"
 
 def test_convert_to_kilogram():
     a = AmountGram(1300)
