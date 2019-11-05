@@ -58,6 +58,7 @@ class Amount(object):
             raise IncompatibleAmountTypes(
                   "Unable to sum the following amounts: \n - {} \n - {}".format(self, other))
 
+
 class AmountLiter(Amount):
 
     @staticmethod
@@ -94,9 +95,9 @@ class AmountPiece(Amount):
             if self.quantity == 0.5:
                 return "1/2 piece"
             else:
-                return f"{round(self.quantity - 0.5)} 1/2 piece"
+                return f"{round(self.quantity - 0.5)} 1/2"
         else:
-            return f"{self.quantity} piece"
+            return f"{self.quantity}"
 
 
 class AmountGram(Amount):
@@ -125,9 +126,16 @@ class AmountPortion(Amount):
     def get_name():
         return "portion"
 
+    def display_appropriate_size(self):
+        if self.quantity > 1:
+            return f"{self.quantity} portioner"
+        else:
+            return f"{self.quantity} portion"
+
 
 class IncompatibleAmountTypes(Exception):
     pass
+
 
 class AmountTypeUnknown(Exception):
     pass
