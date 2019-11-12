@@ -22,7 +22,7 @@ class Amount(object):
 
     def __str__(self):
         if self.quantity == "unknown":
-            return f"{quantity} {self.get_name()}"
+            return f"{self.quantity} {self.get_name()}"
         else:
             return self.display_appropriate_size()
 

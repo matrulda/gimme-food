@@ -1,2 +1,3 @@
 ---
   recipe_folder: gimme_food/examples
+  log_file: gimme-food.log
