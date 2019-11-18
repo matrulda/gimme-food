@@ -10,3 +10,8 @@ def test_run_app_two_recipes():
     runner = CliRunner()
     result = runner.invoke(run_app, ['-n 2'])
     assert result.exit_code == 0
+
+def test_run_app_with_ingredient():
+    runner = CliRunner()
+    result = runner.invoke(run_app, ['-n 1', '-i "Gul lök"'])
+    assert result.exit_code == 0

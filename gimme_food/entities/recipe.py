@@ -11,7 +11,7 @@ class Recipe(object):
         self.name = r["name"]
         self.url = r["url"]
         self.portions = r["portions"]
-        self.ingredients = self.make_ingredients(r["ingredients"])
+        self.ingredients = list(self.make_ingredients(r["ingredients"]))
 
     def __str__(self):
         return "{}: {}".format(self.name, self.url)
@@ -23,3 +23,7 @@ class Recipe(object):
         for name, amount_info in ingredients.items():
             yield Ingredient(name, Amount.create_amount_subclass(amount_info["amount"],
                                                                  amount_info["amount_type"]))
+
+    def ingredients_as_str(self):
+        for ingredient in self.ingredients:
+            yield ingredient.name
