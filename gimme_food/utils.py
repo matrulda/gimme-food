@@ -8,9 +8,9 @@ log = logging.getLogger("master")
 def present_result(chosen_recipes):
     log.debug(f"chosen recipes: {chosen_recipes}")
     shopping_dict = sum_ingredients(chosen_recipes)
-    print("The following recipes were chosen:")
+    print("The following recipes were chosen:\n")
     for recipe in chosen_recipes:
-        print(recipe)
+        print(f"{recipe}\n")
     print("\nHere's your shopping list:")
     for name, amount in shopping_dict.items():
         if amount.quantity == "unknown":
