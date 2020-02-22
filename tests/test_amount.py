@@ -72,3 +72,11 @@ def test_convert_to_half_of_piece():
 def test_convert_to_kilogram():
     a = AmountGram(1300)
     assert str(a) == "1.3 kg"
+
+def test_create_amount_from_msk():
+    a = Amount.create_amount_subclass(2, "msk")
+    assert str(a) == "2 msk"
+
+def test_create_amount_from_kg():
+    a = Amount.create_amount_subclass(0.2, "kg")
+    assert str(a) == "200 gram"

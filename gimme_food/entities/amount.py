@@ -12,8 +12,11 @@ class Amount(object):
     def create_amount_subclass(quantity, amount_type):
         subclasses = Amount.get_subclasses()
         for subclass in subclasses:
-            if amount_type == subclass.get_name():
-                return subclass(quantity)
+            for name in subclass.get_name_variants():
+                if name == "unknown" and amount_type == "unknown":
+                    return subclass(quantity)
+                if amount_type == name[0]:
+                    return subclass(quantity * name[1])
         raise AmountTypeUnknown(f"Unknown amount type: {amount_type}")
 
     @staticmethod
@@ -31,6 +34,13 @@ class Amount(object):
 
     @staticmethod
     def get_name():
+        """
+        Must be implemented by subclass
+        """
+        raise NotImplementedError
+
+    @staticmethod
+    def get_name_variants():
         """
         Must be implemented by subclass
         """
@@ -65,6 +75,13 @@ class AmountLiter(Amount):
     def get_name():
         return "liter"
 
+    @staticmethod
+    def get_name_variants():
+        name_list = [("liter", 1), ("dl", 0.1),
+                     ("msk", 0.015), ("tsk", 0.005),
+                     ("krm", 0.001)]
+        return name_list
+
     def display_appropriate_size(self):
         quantity_ml = int(self.quantity * 1000)
         if quantity_ml < 1000:
@@ -90,6 +107,10 @@ class AmountPiece(Amount):
     def get_name():
         return "piece"
 
+    @staticmethod
+    def get_name_variants():
+        return [("piece", 1)]
+
     def display_appropriate_size(self):
         if self.quantity % 1 == 0.5:
             if self.quantity == 0.5:
@@ -106,11 +127,15 @@ class AmountGram(Amount):
     def get_name():
         return "gram"
 
+    def get_name_variants():
+        name_list = [("gram", 1), ("kg", 1000)]
+        return name_list
+
     def display_appropriate_size(self):
         if self.quantity >= 1000:
             return f"{round(self.quantity / 1000, 2)} kg"
         else:
-            return f"{self.quantity} gram"
+            return f"{round(self.quantity)} gram"
 
 
 class AmountUnknown(Amount):
@@ -119,12 +144,19 @@ class AmountUnknown(Amount):
     def get_name():
         return "unknown"
 
+    @staticmethod
+    def get_name_variants():
+        return ["unknown"]
 
 class AmountPortion(Amount):
 
     @staticmethod
     def get_name():
         return "portion"
+
+    @staticmethod
+    def get_name_variants():
+        return [("portion", 1)]
 
     def display_appropriate_size(self):
         if self.quantity > 1:
