@@ -9,4 +9,4 @@ dist/
 .coverage
 coverage*
 .cache
-gimme-food.log
+*.log

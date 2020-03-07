@@ -79,7 +79,7 @@ class AmountLiter(Amount):
     def get_name_variants():
         name_list = [("liter", 1), ("dl", 0.1),
                      ("msk", 0.015), ("tsk", 0.005),
-                     ("krm", 0.001)]
+                     ("krm", 0.001), ("ml", 0.001)]
         return name_list
 
     def display_appropriate_size(self):
@@ -118,7 +118,7 @@ class AmountPiece(Amount):
             else:
                 return f"{round(self.quantity - 0.5)} 1/2"
         else:
-            return f"{self.quantity}"
+            return f"{round(self.quantity)}"
 
 
 class AmountGram(Amount):
@@ -128,7 +128,8 @@ class AmountGram(Amount):
         return "gram"
 
     def get_name_variants():
-        name_list = [("gram", 1), ("kg", 1000)]
+        name_list = [("gram", 1), ( "g", 1),
+                     ("kg", 1000)]
         return name_list
 
     def display_appropriate_size(self):
