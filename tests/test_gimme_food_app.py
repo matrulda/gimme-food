@@ -1,5 +1,5 @@
 from click.testing import CliRunner
-from gimme_food.app import run_app
+from gimme_food.gimme_food_app import run_app
 
 def test_run_app():
     runner = CliRunner()

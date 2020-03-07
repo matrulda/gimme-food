@@ -1,3 +1,6 @@
 ---
   recipe_folder: gimme_food/examples
   log_file: gimme-food.log
+  secret:
+    ica_user: ica_user
+    ica_pass: ica_pass

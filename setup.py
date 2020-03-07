@@ -14,5 +14,6 @@ setup(name='gimme_food',
                                    'examples/recipe_2.json']},
       include_package_data=True,
       entry_points={
-        'console_scripts': 'gimme_food = gimme_food.app:run_app'}
+        'console_scripts': ['gimme_food = gimme_food.gimme_food_app:run_app',
+                            'gimme_recipe = gimme_food.gimme_recipe_app:run_app']}
      )

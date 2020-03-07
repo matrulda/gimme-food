@@ -1,0 +1,886 @@
+{
+    "Id": 720274,
+    "Title": "Linscurry med kokosmj\u00f6lk och lime",
+    "ImageId": 134475,
+    "ImageUrl": "https://assets.icanet.se/q_auto,f_auto//imagevaultfiles/id_134475/cf_259/linscurry_med_kokosmjolk_och_lime.jpg",
+    "YouTubeId": "",
+    "IngredientGroups": [
+        {
+            "Portions": 4,
+            "Ingredients": [
+                {
+                    "Text": "4 port ris",
+                    "IngredientId": 11355,
+                    "Quantity": 4.0,
+                    "Ingredient": "port ris"
+                },
+                {
+                    "Text": "2 dl torkade r\u00f6da linser",
+                    "IngredientId": 10975,
+                    "Quantity": 2.0,
+                    "Unit": "dl",
+                    "Ingredient": "torkade r\u00f6da linser"
+                },
+                {
+                    "Text": "1 gul l\u00f6k",
+                    "IngredientId": 55192,
+                    "Quantity": 1.0,
+                    "Ingredient": "gul l\u00f6k"
+                },
+                {
+                    "Text": "1 msk riven f\u00e4rsk ingef\u00e4ra",
+                    "IngredientId": 10687,
+                    "Quantity": 1.0,
+                    "Unit": "msk",
+                    "Ingredient": "riven f\u00e4rsk ingef\u00e4ra"
+                },
+                {
+                    "Text": "1 tsk sambal oelek",
+                    "IngredientId": 11469,
+                    "Quantity": 1.0,
+                    "Unit": "tsk",
+                    "Ingredient": "sambal oelek"
+                },
+                {
+                    "Text": "1 msk olja",
+                    "IngredientId": 11161,
+                    "Quantity": 1.0,
+                    "Unit": "msk",
+                    "Ingredient": "olja"
+                },
+                {
+                    "Text": "2 vitl\u00f6ksklyftor",
+                    "IngredientId": 11802,
+                    "Quantity": 2.0,
+                    "Ingredient": "vitl\u00f6ksklyftor"
+                },
+                {
+                    "Text": "1/2 msk curry",
+                    "IngredientId": 10366,
+                    "Quantity": 0.5,
+                    "Unit": "msk",
+                    "Ingredient": "curry"
+                },
+                {
+                    "Text": "2 tsk tomatpur\u00e9",
+                    "IngredientId": 11713,
+                    "Quantity": 2.0,
+                    "Unit": "tsk",
+                    "Ingredient": "tomatpur\u00e9"
+                },
+                {
+                    "Text": "5 dl gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)",
+                    "IngredientId": 10581,
+                    "Quantity": 5.0,
+                    "Unit": "dl",
+                    "Ingredient": "gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)"
+                },
+                {
+                    "Text": "400 ml kokosmj\u00f6lk",
+                    "IngredientId": 10806,
+                    "Quantity": 400.0,
+                    "Unit": "ml",
+                    "Ingredient": "kokosmj\u00f6lk"
+                },
+                {
+                    "Text": "1/2 blomk\u00e5lshuvud",
+                    "IngredientId": 10206,
+                    "Quantity": 0.5,
+                    "Ingredient": "blomk\u00e5lshuvud"
+                },
+                {
+                    "Text": "250 g k\u00f6rsb\u00e4rstomater",
+                    "IngredientId": 10903,
+                    "Quantity": 250.0,
+                    "Unit": "g",
+                    "Ingredient": "k\u00f6rsb\u00e4rstomater"
+                },
+                {
+                    "Text": "1 lime",
+                    "IngredientId": 10961,
+                    "Quantity": 1.0,
+                    "Ingredient": "lime"
+                },
+                {
+                    "Text": "salt och peppar",
+                    "IngredientId": 492108,
+                    "Quantity": 0.0,
+                    "Ingredient": "salt och peppar"
+                },
+                {
+                    "Text": "65 g babyspenat",
+                    "IngredientId": 696448,
+                    "Quantity": 65.0,
+                    "Unit": "g",
+                    "Ingredient": "babyspenat"
+                },
+                {
+                    "Text": "1 dl cashewn\u00f6tter",
+                    "IngredientId": 10274,
+                    "Quantity": 1.0,
+                    "Unit": "dl",
+                    "Ingredient": "cashewn\u00f6tter"
+                }
+            ]
+        }
+    ],
+    "ExtraPortions": [
+        {
+            "Portions": 2,
+            "Ingredients": [
+                {
+                    "Text": "2 port ris",
+                    "IngredientId": 11355,
+                    "Quantity": 2.0,
+                    "Ingredient": "port ris"
+                },
+                {
+                    "Text": "1 dl torkade r\u00f6da linser",
+                    "IngredientId": 10975,
+                    "Quantity": 1.0,
+                    "Unit": "dl",
+                    "Ingredient": "torkade r\u00f6da linser"
+                },
+                {
+                    "Text": "1/2 gul l\u00f6k",
+                    "IngredientId": 55192,
+                    "Quantity": 0.5,
+                    "Ingredient": "gul l\u00f6k"
+                },
+                {
+                    "Text": "1/2 msk riven f\u00e4rsk ingef\u00e4ra",
+                    "IngredientId": 10687,
+                    "Quantity": 0.5,
+                    "Unit": "msk",
+                    "Ingredient": "riven f\u00e4rsk ingef\u00e4ra"
+                },
+                {
+                    "Text": "1/2 tsk sambal oelek",
+                    "IngredientId": 11469,
+                    "Quantity": 0.5,
+                    "Unit": "tsk",
+                    "Ingredient": "sambal oelek"
+                },
+                {
+                    "Text": "1/2 msk olja",
+                    "IngredientId": 11161,
+                    "Quantity": 0.5,
+                    "Unit": "msk",
+                    "Ingredient": "olja"
+                },
+                {
+                    "Text": "1 vitl\u00f6ksklyftor",
+                    "IngredientId": 11802,
+                    "Quantity": 1.0,
+                    "Ingredient": "vitl\u00f6ksklyftor"
+                },
+                {
+                    "Text": "1/4 msk curry",
+                    "IngredientId": 10366,
+                    "Quantity": 0.25,
+                    "Unit": "msk",
+                    "Ingredient": "curry"
+                },
+                {
+                    "Text": "1 tsk tomatpur\u00e9",
+                    "IngredientId": 11713,
+                    "Quantity": 1.0,
+                    "Unit": "tsk",
+                    "Ingredient": "tomatpur\u00e9"
+                },
+                {
+                    "Text": "2 1/2 dl gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)",
+                    "IngredientId": 10581,
+                    "Quantity": 2.5,
+                    "Unit": "dl",
+                    "Ingredient": "gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)"
+                },
+                {
+                    "Text": "200 ml kokosmj\u00f6lk",
+                    "IngredientId": 10806,
+                    "Quantity": 200.0,
+                    "Unit": "ml",
+                    "Ingredient": "kokosmj\u00f6lk"
+                },
+                {
+                    "Text": "1/4 blomk\u00e5lshuvud",
+                    "IngredientId": 10206,
+                    "Quantity": 0.25,
+                    "Ingredient": "blomk\u00e5lshuvud"
+                },
+                {
+                    "Text": "125 g k\u00f6rsb\u00e4rstomater",
+                    "IngredientId": 10903,
+                    "Quantity": 125.0,
+                    "Unit": "g",
+                    "Ingredient": "k\u00f6rsb\u00e4rstomater"
+                },
+                {
+                    "Text": "1/2 lime",
+                    "IngredientId": 10961,
+                    "Quantity": 0.5,
+                    "Ingredient": "lime"
+                },
+                {
+                    "Text": " salt och peppar",
+                    "IngredientId": 492108,
+                    "Quantity": 0.0,
+                    "Ingredient": "salt och peppar"
+                },
+                {
+                    "Text": "32 1/2 g babyspenat",
+                    "IngredientId": 696448,
+                    "Quantity": 32.5,
+                    "Unit": "g",
+                    "Ingredient": "babyspenat"
+                },
+                {
+                    "Text": "1/2 dl cashewn\u00f6tter",
+                    "IngredientId": 10274,
+                    "Quantity": 0.5,
+                    "Unit": "dl",
+                    "Ingredient": "cashewn\u00f6tter"
+                }
+            ]
+        },
+        {
+            "Portions": 4,
+            "Ingredients": [
+                {
+                    "Text": "4 port ris",
+                    "IngredientId": 11355,
+                    "Quantity": 4.0,
+                    "Ingredient": "port ris"
+                },
+                {
+                    "Text": "2 dl torkade r\u00f6da linser",
+                    "IngredientId": 10975,
+                    "Quantity": 2.0,
+                    "Unit": "dl",
+                    "Ingredient": "torkade r\u00f6da linser"
+                },
+                {
+                    "Text": "1 gul l\u00f6k",
+                    "IngredientId": 55192,
+                    "Quantity": 1.0,
+                    "Ingredient": "gul l\u00f6k"
+                },
+                {
+                    "Text": "1 msk riven f\u00e4rsk ingef\u00e4ra",
+                    "IngredientId": 10687,
+                    "Quantity": 1.0,
+                    "Unit": "msk",
+                    "Ingredient": "riven f\u00e4rsk ingef\u00e4ra"
+                },
+                {
+                    "Text": "1 tsk sambal oelek",
+                    "IngredientId": 11469,
+                    "Quantity": 1.0,
+                    "Unit": "tsk",
+                    "Ingredient": "sambal oelek"
+                },
+                {
+                    "Text": "1 msk olja",
+                    "IngredientId": 11161,
+                    "Quantity": 1.0,
+                    "Unit": "msk",
+                    "Ingredient": "olja"
+                },
+                {
+                    "Text": "2 vitl\u00f6ksklyftor",
+                    "IngredientId": 11802,
+                    "Quantity": 2.0,
+                    "Ingredient": "vitl\u00f6ksklyftor"
+                },
+                {
+                    "Text": "1/2 msk curry",
+                    "IngredientId": 10366,
+                    "Quantity": 0.5,
+                    "Unit": "msk",
+                    "Ingredient": "curry"
+                },
+                {
+                    "Text": "2 tsk tomatpur\u00e9",
+                    "IngredientId": 11713,
+                    "Quantity": 2.0,
+                    "Unit": "tsk",
+                    "Ingredient": "tomatpur\u00e9"
+                },
+                {
+                    "Text": "5 dl gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)",
+                    "IngredientId": 10581,
+                    "Quantity": 5.0,
+                    "Unit": "dl",
+                    "Ingredient": "gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)"
+                },
+                {
+                    "Text": "400 ml kokosmj\u00f6lk",
+                    "IngredientId": 10806,
+                    "Quantity": 400.0,
+                    "Unit": "ml",
+                    "Ingredient": "kokosmj\u00f6lk"
+                },
+                {
+                    "Text": "1/2 blomk\u00e5lshuvud",
+                    "IngredientId": 10206,
+                    "Quantity": 0.5,
+                    "Ingredient": "blomk\u00e5lshuvud"
+                },
+                {
+                    "Text": "250 g k\u00f6rsb\u00e4rstomater",
+                    "IngredientId": 10903,
+                    "Quantity": 250.0,
+                    "Unit": "g",
+                    "Ingredient": "k\u00f6rsb\u00e4rstomater"
+                },
+                {
+                    "Text": "1 lime",
+                    "IngredientId": 10961,
+                    "Quantity": 1.0,
+                    "Ingredient": "lime"
+                },
+                {
+                    "Text": " salt och peppar",
+                    "IngredientId": 492108,
+                    "Quantity": 0.0,
+                    "Ingredient": "salt och peppar"
+                },
+                {
+                    "Text": "65 g babyspenat",
+                    "IngredientId": 696448,
+                    "Quantity": 65.0,
+                    "Unit": "g",
+                    "Ingredient": "babyspenat"
+                },
+                {
+                    "Text": "1 dl cashewn\u00f6tter",
+                    "IngredientId": 10274,
+                    "Quantity": 1.0,
+                    "Unit": "dl",
+                    "Ingredient": "cashewn\u00f6tter"
+                }
+            ]
+        },
+        {
+            "Portions": 6,
+            "Ingredients": [
+                {
+                    "Text": "6 port ris",
+                    "IngredientId": 11355,
+                    "Quantity": 6.0,
+                    "Ingredient": "port ris"
+                },
+                {
+                    "Text": "3 dl torkade r\u00f6da linser",
+                    "IngredientId": 10975,
+                    "Quantity": 3.0,
+                    "Unit": "dl",
+                    "Ingredient": "torkade r\u00f6da linser"
+                },
+                {
+                    "Text": "1 1/2 gul l\u00f6k",
+                    "IngredientId": 55192,
+                    "Quantity": 1.5,
+                    "Ingredient": "gul l\u00f6k"
+                },
+                {
+                    "Text": "1 1/2 msk riven f\u00e4rsk ingef\u00e4ra",
+                    "IngredientId": 10687,
+                    "Quantity": 1.5,
+                    "Unit": "msk",
+                    "Ingredient": "riven f\u00e4rsk ingef\u00e4ra"
+                },
+                {
+                    "Text": "1 1/2 tsk sambal oelek",
+                    "IngredientId": 11469,
+                    "Quantity": 1.5,
+                    "Unit": "tsk",
+                    "Ingredient": "sambal oelek"
+                },
+                {
+                    "Text": "1 1/2 msk olja",
+                    "IngredientId": 11161,
+                    "Quantity": 1.5,
+                    "Unit": "msk",
+                    "Ingredient": "olja"
+                },
+                {
+                    "Text": "3 vitl\u00f6ksklyftor",
+                    "IngredientId": 11802,
+                    "Quantity": 3.0,
+                    "Ingredient": "vitl\u00f6ksklyftor"
+                },
+                {
+                    "Text": "3/4 msk curry",
+                    "IngredientId": 10366,
+                    "Quantity": 0.75,
+                    "Unit": "msk",
+                    "Ingredient": "curry"
+                },
+                {
+                    "Text": "3 tsk tomatpur\u00e9",
+                    "IngredientId": 11713,
+                    "Quantity": 3.0,
+                    "Unit": "tsk",
+                    "Ingredient": "tomatpur\u00e9"
+                },
+                {
+                    "Text": "7 1/2 dl gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)",
+                    "IngredientId": 10581,
+                    "Quantity": 7.5,
+                    "Unit": "dl",
+                    "Ingredient": "gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)"
+                },
+                {
+                    "Text": "600 ml kokosmj\u00f6lk",
+                    "IngredientId": 10806,
+                    "Quantity": 600.0,
+                    "Unit": "ml",
+                    "Ingredient": "kokosmj\u00f6lk"
+                },
+                {
+                    "Text": "3/4 blomk\u00e5lshuvud",
+                    "IngredientId": 10206,
+                    "Quantity": 0.75,
+                    "Ingredient": "blomk\u00e5lshuvud"
+                },
+                {
+                    "Text": "375 g k\u00f6rsb\u00e4rstomater",
+                    "IngredientId": 10903,
+                    "Quantity": 375.0,
+                    "Unit": "g",
+                    "Ingredient": "k\u00f6rsb\u00e4rstomater"
+                },
+                {
+                    "Text": "1 1/2 lime",
+                    "IngredientId": 10961,
+                    "Quantity": 1.5,
+                    "Ingredient": "lime"
+                },
+                {
+                    "Text": " salt och peppar",
+                    "IngredientId": 492108,
+                    "Quantity": 0.0,
+                    "Ingredient": "salt och peppar"
+                },
+                {
+                    "Text": "97 1/2 g babyspenat",
+                    "IngredientId": 696448,
+                    "Quantity": 97.5,
+                    "Unit": "g",
+                    "Ingredient": "babyspenat"
+                },
+                {
+                    "Text": "1 1/2 dl cashewn\u00f6tter",
+                    "IngredientId": 10274,
+                    "Quantity": 1.5,
+                    "Unit": "dl",
+                    "Ingredient": "cashewn\u00f6tter"
+                }
+            ]
+        },
+        {
+            "Portions": 8,
+            "Ingredients": [
+                {
+                    "Text": "8 port ris",
+                    "IngredientId": 11355,
+                    "Quantity": 8.0,
+                    "Ingredient": "port ris"
+                },
+                {
+                    "Text": "4 dl torkade r\u00f6da linser",
+                    "IngredientId": 10975,
+                    "Quantity": 4.0,
+                    "Unit": "dl",
+                    "Ingredient": "torkade r\u00f6da linser"
+                },
+                {
+                    "Text": "2 gul l\u00f6k",
+                    "IngredientId": 55192,
+                    "Quantity": 2.0,
+                    "Ingredient": "gul l\u00f6k"
+                },
+                {
+                    "Text": "2 msk riven f\u00e4rsk ingef\u00e4ra",
+                    "IngredientId": 10687,
+                    "Quantity": 2.0,
+                    "Unit": "msk",
+                    "Ingredient": "riven f\u00e4rsk ingef\u00e4ra"
+                },
+                {
+                    "Text": "2 tsk sambal oelek",
+                    "IngredientId": 11469,
+                    "Quantity": 2.0,
+                    "Unit": "tsk",
+                    "Ingredient": "sambal oelek"
+                },
+                {
+                    "Text": "2 msk olja",
+                    "IngredientId": 11161,
+                    "Quantity": 2.0,
+                    "Unit": "msk",
+                    "Ingredient": "olja"
+                },
+                {
+                    "Text": "4 vitl\u00f6ksklyftor",
+                    "IngredientId": 11802,
+                    "Quantity": 4.0,
+                    "Ingredient": "vitl\u00f6ksklyftor"
+                },
+                {
+                    "Text": "1 msk curry",
+                    "IngredientId": 10366,
+                    "Quantity": 1.0,
+                    "Unit": "msk",
+                    "Ingredient": "curry"
+                },
+                {
+                    "Text": "4 tsk tomatpur\u00e9",
+                    "IngredientId": 11713,
+                    "Quantity": 4.0,
+                    "Unit": "tsk",
+                    "Ingredient": "tomatpur\u00e9"
+                },
+                {
+                    "Text": "10 dl gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)",
+                    "IngredientId": 10581,
+                    "Quantity": 10.0,
+                    "Unit": "dl",
+                    "Ingredient": "gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)"
+                },
+                {
+                    "Text": "800 ml kokosmj\u00f6lk",
+                    "IngredientId": 10806,
+                    "Quantity": 800.0,
+                    "Unit": "ml",
+                    "Ingredient": "kokosmj\u00f6lk"
+                },
+                {
+                    "Text": "1 blomk\u00e5lshuvud",
+                    "IngredientId": 10206,
+                    "Quantity": 1.0,
+                    "Ingredient": "blomk\u00e5lshuvud"
+                },
+                {
+                    "Text": "500 g k\u00f6rsb\u00e4rstomater",
+                    "IngredientId": 10903,
+                    "Quantity": 500.0,
+                    "Unit": "g",
+                    "Ingredient": "k\u00f6rsb\u00e4rstomater"
+                },
+                {
+                    "Text": "2 lime",
+                    "IngredientId": 10961,
+                    "Quantity": 2.0,
+                    "Ingredient": "lime"
+                },
+                {
+                    "Text": " salt och peppar",
+                    "IngredientId": 492108,
+                    "Quantity": 0.0,
+                    "Ingredient": "salt och peppar"
+                },
+                {
+                    "Text": "130 g babyspenat",
+                    "IngredientId": 696448,
+                    "Quantity": 130.0,
+                    "Unit": "g",
+                    "Ingredient": "babyspenat"
+                },
+                {
+                    "Text": "2 dl cashewn\u00f6tter",
+                    "IngredientId": 10274,
+                    "Quantity": 2.0,
+                    "Unit": "dl",
+                    "Ingredient": "cashewn\u00f6tter"
+                }
+            ]
+        },
+        {
+            "Portions": 10,
+            "Ingredients": [
+                {
+                    "Text": "10 port ris",
+                    "IngredientId": 11355,
+                    "Quantity": 10.0,
+                    "Ingredient": "port ris"
+                },
+                {
+                    "Text": "5 dl torkade r\u00f6da linser",
+                    "IngredientId": 10975,
+                    "Quantity": 5.0,
+                    "Unit": "dl",
+                    "Ingredient": "torkade r\u00f6da linser"
+                },
+                {
+                    "Text": "2 1/2 gul l\u00f6k",
+                    "IngredientId": 55192,
+                    "Quantity": 2.5,
+                    "Ingredient": "gul l\u00f6k"
+                },
+                {
+                    "Text": "2 1/2 msk riven f\u00e4rsk ingef\u00e4ra",
+                    "IngredientId": 10687,
+                    "Quantity": 2.5,
+                    "Unit": "msk",
+                    "Ingredient": "riven f\u00e4rsk ingef\u00e4ra"
+                },
+                {
+                    "Text": "2 1/2 tsk sambal oelek",
+                    "IngredientId": 11469,
+                    "Quantity": 2.5,
+                    "Unit": "tsk",
+                    "Ingredient": "sambal oelek"
+                },
+                {
+                    "Text": "2 1/2 msk olja",
+                    "IngredientId": 11161,
+                    "Quantity": 2.5,
+                    "Unit": "msk",
+                    "Ingredient": "olja"
+                },
+                {
+                    "Text": "5 vitl\u00f6ksklyftor",
+                    "IngredientId": 11802,
+                    "Quantity": 5.0,
+                    "Ingredient": "vitl\u00f6ksklyftor"
+                },
+                {
+                    "Text": "1 1/4 msk curry",
+                    "IngredientId": 10366,
+                    "Quantity": 1.25,
+                    "Unit": "msk",
+                    "Ingredient": "curry"
+                },
+                {
+                    "Text": "5 tsk tomatpur\u00e9",
+                    "IngredientId": 11713,
+                    "Quantity": 5.0,
+                    "Unit": "tsk",
+                    "Ingredient": "tomatpur\u00e9"
+                },
+                {
+                    "Text": "12 1/2 dl gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)",
+                    "IngredientId": 10581,
+                    "Quantity": 12.5,
+                    "Unit": "dl",
+                    "Ingredient": "gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)"
+                },
+                {
+                    "Text": "1000 ml kokosmj\u00f6lk",
+                    "IngredientId": 10806,
+                    "Quantity": 1000.0,
+                    "Unit": "ml",
+                    "Ingredient": "kokosmj\u00f6lk"
+                },
+                {
+                    "Text": "1 1/4 blomk\u00e5lshuvud",
+                    "IngredientId": 10206,
+                    "Quantity": 1.25,
+                    "Ingredient": "blomk\u00e5lshuvud"
+                },
+                {
+                    "Text": "625 g k\u00f6rsb\u00e4rstomater",
+                    "IngredientId": 10903,
+                    "Quantity": 625.0,
+                    "Unit": "g",
+                    "Ingredient": "k\u00f6rsb\u00e4rstomater"
+                },
+                {
+                    "Text": "2 1/2 lime",
+                    "IngredientId": 10961,
+                    "Quantity": 2.5,
+                    "Ingredient": "lime"
+                },
+                {
+                    "Text": " salt och peppar",
+                    "IngredientId": 492108,
+                    "Quantity": 0.0,
+                    "Ingredient": "salt och peppar"
+                },
+                {
+                    "Text": "162 1/2 g babyspenat",
+                    "IngredientId": 696448,
+                    "Quantity": 162.5,
+                    "Unit": "g",
+                    "Ingredient": "babyspenat"
+                },
+                {
+                    "Text": "2 1/2 dl cashewn\u00f6tter",
+                    "IngredientId": 10274,
+                    "Quantity": 2.5,
+                    "Unit": "dl",
+                    "Ingredient": "cashewn\u00f6tter"
+                }
+            ]
+        },
+        {
+            "Portions": 12,
+            "Ingredients": [
+                {
+                    "Text": "12 port ris",
+                    "IngredientId": 11355,
+                    "Quantity": 12.0,
+                    "Ingredient": "port ris"
+                },
+                {
+                    "Text": "6 dl torkade r\u00f6da linser",
+                    "IngredientId": 10975,
+                    "Quantity": 6.0,
+                    "Unit": "dl",
+                    "Ingredient": "torkade r\u00f6da linser"
+                },
+                {
+                    "Text": "3 gul l\u00f6k",
+                    "IngredientId": 55192,
+                    "Quantity": 3.0,
+                    "Ingredient": "gul l\u00f6k"
+                },
+                {
+                    "Text": "3 msk riven f\u00e4rsk ingef\u00e4ra",
+                    "IngredientId": 10687,
+                    "Quantity": 3.0,
+                    "Unit": "msk",
+                    "Ingredient": "riven f\u00e4rsk ingef\u00e4ra"
+                },
+                {
+                    "Text": "3 tsk sambal oelek",
+                    "IngredientId": 11469,
+                    "Quantity": 3.0,
+                    "Unit": "tsk",
+                    "Ingredient": "sambal oelek"
+                },
+                {
+                    "Text": "3 msk olja",
+                    "IngredientId": 11161,
+                    "Quantity": 3.0,
+                    "Unit": "msk",
+                    "Ingredient": "olja"
+                },
+                {
+                    "Text": "6 vitl\u00f6ksklyftor",
+                    "IngredientId": 11802,
+                    "Quantity": 6.0,
+                    "Ingredient": "vitl\u00f6ksklyftor"
+                },
+                {
+                    "Text": "1 1/2 msk curry",
+                    "IngredientId": 10366,
+                    "Quantity": 1.5,
+                    "Unit": "msk",
+                    "Ingredient": "curry"
+                },
+                {
+                    "Text": "6 tsk tomatpur\u00e9",
+                    "IngredientId": 11713,
+                    "Quantity": 6.0,
+                    "Unit": "tsk",
+                    "Ingredient": "tomatpur\u00e9"
+                },
+                {
+                    "Text": "15 dl gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)",
+                    "IngredientId": 10581,
+                    "Quantity": 15.0,
+                    "Unit": "dl",
+                    "Ingredient": "gr\u00f6nsaksbuljong (vatten och t\u00e4rning eller fond)"
+                },
+                {
+                    "Text": "1200 ml kokosmj\u00f6lk",
+                    "IngredientId": 10806,
+                    "Quantity": 1200.0,
+                    "Unit": "ml",
+                    "Ingredient": "kokosmj\u00f6lk"
+                },
+                {
+                    "Text": "1 1/2 blomk\u00e5lshuvud",
+                    "IngredientId": 10206,
+                    "Quantity": 1.5,
+                    "Ingredient": "blomk\u00e5lshuvud"
+                },
+                {
+                    "Text": "750 g k\u00f6rsb\u00e4rstomater",
+                    "IngredientId": 10903,
+                    "Quantity": 750.0,
+                    "Unit": "g",
+                    "Ingredient": "k\u00f6rsb\u00e4rstomater"
+                },
+                {
+                    "Text": "3 lime",
+                    "IngredientId": 10961,
+                    "Quantity": 3.0,
+                    "Ingredient": "lime"
+                },
+                {
+                    "Text": " salt och peppar",
+                    "IngredientId": 492108,
+                    "Quantity": 0.0,
+                    "Ingredient": "salt och peppar"
+                },
+                {
+                    "Text": "195 g babyspenat",
+                    "IngredientId": 696448,
+                    "Quantity": 195.0,
+                    "Unit": "g",
+                    "Ingredient": "babyspenat"
+                },
+                {
+                    "Text": "3 dl cashewn\u00f6tter",
+                    "IngredientId": 10274,
+                    "Quantity": 3.0,
+                    "Unit": "dl",
+                    "Ingredient": "cashewn\u00f6tter"
+                }
+            ]
+        }
+    ],
+    "PreambleHTML": "Bjud smakl\u00f6karna p\u00e5 en ljuvlig linscurry. H\u00e4r m\u00f6ts l\u00e4ckra smaker som curry, tomat och kr\u00e4mig kokosmj\u00f6lk med hetta fr\u00e5n b\u00e5de ingef\u00e4ra och sambal oelek. Servera knapriga cashewn\u00f6tter som tillbeh\u00f6r och pressa \u00f6ver lite syrlig lime f\u00f6r at lyfta fram smakerna ytterligare.",
+    "BodyHTML": "<ol><li>Koka riset enligt anvisningen p&aring; f&ouml;rpackningen.</li><li>Sk&ouml;lj linserna och l&aring;t dem rinna av.</li><li>Skala och hacka den gula l&ouml;ken. Skala och riv ingef&auml;ran.&nbsp;</li><li>Fr&auml;s den gula l&ouml;ken och sambal i olja i en stor kastrull. Pressa ner vitl&ouml;k och r&ouml;r i ingef&auml;ra, curry och tomatpur&eacute;. Tills&auml;tt linser, buljong och kokosmj&ouml;lk. Koka upp under omr&ouml;rning och sjud ca 10 minuter under lock.</li><li>Sk&auml;r blomk&aring;len i mindre bitar. L&auml;gg ner dem i kastrullen och koka ytterligare ca 10 minuter.</li><li>Sk&auml;r tomaterna i halvor och limen i klyftor.</li><li>Smaka av med salt och peppar och v&auml;nd ner spenat och tomater.</li><li>Servera linscurryn med ris, n&ouml;tter och limeklyftor.</li></ol><h3>F&ouml;r alla</h3><p>L&auml;s noga ingrediensf&ouml;rteckningen p&aring; buljongen. I &ouml;vrigt &auml;r r&auml;tten &auml;r fri fr&aring;n gluten, laktos, mj&ouml;lkprotein och &auml;gg.</p><h2>Tips</h2>Rosta g\u00e4rna cashewn\u00f6tterna i en torr stekpanna p\u00e5 medelv\u00e4rme tills de f\u00e5r lite f\u00e4rg.",
+    "CookingSteps": [
+        "Koka riset enligt anvisningen p&aring; f&ouml;rpackningen.",
+        "Sk&ouml;lj linserna och l&aring;t dem rinna av.",
+        "Skala och hacka den gula l&ouml;ken. Skala och riv ingef&auml;ran.&nbsp;",
+        "Fr&auml;s den gula l&ouml;ken och sambal i olja i en stor kastrull. Pressa ner vitl&ouml;k och r&ouml;r i ingef&auml;ra, curry och tomatpur&eacute;. Tills&auml;tt linser, buljong och kokosmj&ouml;lk. Koka upp under omr&ouml;rning och sjud ca 10 minuter under lock.",
+        "Sk&auml;r blomk&aring;len i mindre bitar. L&auml;gg ner dem i kastrullen och koka ytterligare ca 10 minuter.",
+        "Sk&auml;r tomaterna i halvor och limen i klyftor.",
+        "Smaka av med salt och peppar och v&auml;nd ner spenat och tomater.",
+        "Servera linscurryn med ris, n&ouml;tter och limeklyftor."
+    ],
+    "CurrentUsersRating": "324",
+    "AverageRating": "4.6",
+    "Difficulty": "Medel",
+    "CookingTime": "Under 45 minuter",
+    "Portions": 4,
+    "PortionsDescription": "4",
+    "Categories": [
+        3,
+        210,
+        374,
+        454,
+        469,
+        476,
+        536,
+        555,
+        556,
+        175,
+        31,
+        33,
+        54,
+        147,
+        62,
+        29,
+        64,
+        65,
+        66,
+        284,
+        791,
+        896,
+        310,
+        298,
+        823,
+        344,
+        762
+    ],
+    "OfferCount": 1,
+    "CommentCount": 30
+}

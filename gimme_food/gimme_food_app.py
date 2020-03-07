@@ -20,9 +20,9 @@ def run_app(number_of_recipes, config, ingredient, debug):
     conf = read_config(config)
     log = get_logger(debug, conf["log_file"])
     print_banner(__version__)
-    log.info(f"gimme-food started - version: {__version__}, config: {config}, " +
+    print_safe_config = {k:v for k,v in conf.items() if k != "secret"}
+    log.info(f"gimme-food started - version: {__version__}, config: {print_safe_config}, " +
              f"number of recipes: {number_of_recipes}, ingredient: {ingredient}, debug: {debug}")
-    log.info(f"config values: {conf}")
     try:
         recipe_list = list(make_recipe_db(conf["recipe_folder"]))
     except RecipeNotInProperJsonFormat as e:
