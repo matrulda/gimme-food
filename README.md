@@ -13,7 +13,7 @@ pip install -r requirements/prod .
 ```
 ## Recipe database
 The recipe database is a folder with json files, with one recipe in each.
-Specify this folder in the config, see `config/config.yaml`. Data structure
+Specify this folder in the config, see `gimme_food/config/config.yaml`. Data structure
 of recipes are described below, for more examples see `gimme_food/examples`.
 
 ### Defining your own recipes
@@ -43,7 +43,10 @@ Important:
   - Remember to always write your ingredients in the same format. The app is not very smart and will treat `carrots`, `Carrot` and `carrot` as different things.
   - Don't mix amount types for an ingredient. For example, if one recipe contain `500 gram potato` and another `3 pieces potato` it won't be possible to sum them.  
 
-## Usage
+## GIMME RECIPE!
+Does it sound dull to write your own json files? Fear not, `gimme_recipe` here for the rescue! It is now possible to use the `gimme_recipe` command to add https://www.ica.se/recept/ recipes to your collection. Read more about this awesome feature in the usage section.
+
+## Usage: `gimme_food`
 ```
 $ gimme_food -n 2
 
@@ -106,6 +109,43 @@ $ gimme_food -n 5 -i "Banan" -i "Curry"
 
 ```
  will aim to find one recipe with `Banan` and `Curry` + 4 random recipes. It will NOT try to find 5 recipes with those ingredients. If there is no recipe containing `Banan` + `Curry`, it will try to find one with `Banan` and another with `Curry` + 3 random recipes.
+
+ ## Usage: `gimme_recipe`
+
+ ```
+ $ gimme_recipe -c my_gimme_food_conf.yaml --url https://www.ica.se/recept/rotfruktscurry-med-nudlar-och-koriander-723758/
+
+------------------------------------------------------------------
+  ________.__                           _____                 .___
+ /  _____/|__| _____   _____   ____   _/ ____\____   ____   __| _/
+/   \  ___|  |/     \ /     \_/ __ \  \   __\/  _ \ /  _ \ / __ |
+\    \_\  \  |  Y Y  \  Y Y  \  ___/   |  | (  <_> |  <_> ) /_/ |
+ \______  /__|__|_|  /__|_|  /\___  >  |__|  \____/ \____/\____ |
+        \/         \/      \/     \/                           \/
+-------------------------------------------------------------------
+                              v1.1.0
+
+
+Ingredient name, Grönsaksbuljongtärning eller motsvarande mängd fond, is suspiciously long, perhaps it contains more than the ingredient name.
+Do you want to use it? Type "yes".
+Otherwise, type the name you want to use instead: Grönsaksbuljongtärning
+
+Should, Port glasnudlar, be interpreted as as portions of glasnudlar? (yes/no):
+yes
+
+Recipe captured! Writing to: /json_recipes/rotfruktscurry_med_nudlar_och_koriander.json
+ ```
+
+ To use the `gimme_food` feature, you have to sign up on https://www.ica.se/ansokan/ and add your username and password to the config. See example in `gimme_food/config/config.yaml`.
+
+ Use the `-u/--url` parameter to specify the recipe url.
+
+ Too tackle the problem of recipes often being written in a non-standardized way, the algorithm will try to figure out what you actually want to add to your shopping list and sometimes ask you for help.
+  * Ingredient names with 3 or more words will be marked as suspiciously long. You can choose to keep the long name or state another name to use.
+  * Ingredient names that start with "Port" will be marked as portion ingredient. You can state whether or not this is correct.
+  * "Salt och peppar" will be separated into two ingredients: `Salt` and `Peppar`
+
+The algorithm is not perfect. If you discover that something was interpreted incorrect, please update the json file manually. Submit a ticket if it is a case a machine should be able to handle.   
 
 ## Note regarding measures
 Since this is an app to help me in my everyday life and I mainly use Swedish recipes, amounts will be converted to appropriate Swedish measures. In later versions different language options might be possible.
