@@ -5,7 +5,7 @@ from gimme_food.recipe_picker import RecipePicker
 
 @pytest.fixture
 def recipe_list():
-    return list(make_recipe_db("gimme_food/examples"))
+    return make_recipe_db("gimme_food/examples", 1)
 
 def test_one_ingredient(recipe_list):
     recipe_picker = RecipePicker(recipe_list, 1, ("Jordnötssmör",))
