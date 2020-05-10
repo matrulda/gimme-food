@@ -9,6 +9,6 @@ def recipe_dict():
 
 def test_make_recipe(recipe_dict):
     recipe = Recipe(recipe_dict)
-    assert str(recipe) == ("Linscurry med kokosmjölk och lime: "
+    assert str(recipe) == ("Linscurry med kokosmjölk och lime (4 portions): "
                            "https://www.ica.se/recept/linscurry-med-kokosmjolk-och-lime-720274/")
     assert len(list(recipe.ingredients)) == 18

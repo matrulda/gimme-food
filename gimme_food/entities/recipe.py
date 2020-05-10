@@ -14,7 +14,7 @@ class Recipe(object):
         self.ingredients = list(self.make_ingredients(r["ingredients"]))
 
     def __str__(self):
-        return "{}: {}".format(self.name, self.url)
+        return f"{self.name} ({self.portions} portions): {self.url}"
 
     def __repr__(self):
         return self.__str__()
