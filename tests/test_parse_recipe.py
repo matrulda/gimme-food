@@ -31,3 +31,9 @@ def test_convert_to_gimme_food_dict_no(ica_test_response, conf, mocker):
     assert len(result["ingredients"]) == 18
     assert "Port ris" in result["ingredients"]
     assert "Ingefära" in result["ingredients"]
+
+def test_get_recipe_file_name():
+    recipe_name = "Potatis, morot och palsternacka"
+    result = ParseRecipe.get_recipe_file_name(recipe_name)
+    assert result == "potatis_morot_och_palsternacka.json"
+

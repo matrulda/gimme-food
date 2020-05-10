@@ -14,13 +14,20 @@ class ParseRecipe(object):
     def parse_recipe(self, url):
         if "www.ica.se" in url:
             recipe = self.get_ica_recipe(url)
-            recipe_name = recipe["recipe"]["name"].replace(" ", "_").lower()
-            file_name = os.path.join(self.conf["recipe_folder"], f"{recipe_name}.json")
+            recipe_file_name = ParseRecipe.get_recipe_file_name(recipe["recipe"]["name"])
+            file_name = os.path.join(self.conf["recipe_folder"], recipe_file_name)
             print(f"\nRecipe captured! Writing to: {file_name}")
             with open(file_name, "w") as f:
                 json.dump(recipe, f, indent=4, ensure_ascii=False)
         else:
             raise NotImplementedError("Sorry, only ICA recipes are supported for the moment")
+
+    @staticmethod
+    def get_recipe_file_name(recipe_name):
+        recipe_name = recipe_name.lower()
+        recipe_name = recipe_name.replace(" ", "_")
+        recipe_name = recipe_name.replace(",", "")
+        return f"{recipe_name}.json"
 
     def get_ica_recipe(self, url):
         try:
