@@ -1,0 +1,12 @@
+{
+    "recipe": {
+      "name": "Recipe A",
+      "url": "",
+      "portions": 1,
+      "ingredients": {
+        "Morot": {
+          "amount": 4,
+          "amount_type": "piece"}
+        }
+    }
+}
