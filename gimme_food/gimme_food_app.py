@@ -8,6 +8,7 @@ from gimme_food.utils import present_result, print_banner
 from gimme_food.configure import read_config, get_logger
 from gimme_food.exceptions import RecipeNotInProperJsonFormat
 from gimme_food.exceptions import NotEnoughRecipesInDatabase
+from gimme_food.exceptions import InconsistentBD
 from gimme_food.recipe_picker import RecipePicker
 
 @click.command("gimme_food")
@@ -26,7 +27,9 @@ def run_app(number_of_recipes, config, ingredient, debug):
              f"number of recipes: {number_of_recipes}, ingredient: {ingredient}, debug: {debug}")
     try:
         recipe_list = make_recipe_db(conf["recipe_folder"], number_of_recipes)
-    except (RecipeNotInProperJsonFormat, NotEnoughRecipesInDatabase) as e:
+    except (RecipeNotInProperJsonFormat,
+            NotEnoughRecipesInDatabase,
+            InconsistentBD) as e:
         log.error(e)
         sys.exit()
     recipe_picker = RecipePicker(recipe_list, number_of_recipes, ingredient)

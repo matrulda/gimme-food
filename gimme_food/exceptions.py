@@ -6,3 +6,11 @@ class RecipeNotInProperJsonFormat(Exception):
 
 class NotEnoughRecipesInDatabase(Exception):
     pass
+
+
+class UnableToCalculateSumOfIngredient(Exception):
+    pass
+
+
+class InconsistentBD(Exception):
+    pass

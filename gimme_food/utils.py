@@ -2,6 +2,8 @@ from collections import defaultdict
 import logging
 
 from gimme_food.entities.amount import Amount
+from gimme_food.entities.amount import IncompatibleAmountTypes
+from gimme_food.exceptions import UnableToCalculateSumOfIngredient
 
 log = logging.getLogger("master")
 
@@ -24,7 +26,11 @@ def sum_ingredients(chosen_recipes):
         for ingredient in recipe.ingredients:
             a = ingredient.amount
             log.debug(f"Attempting to sum: {a} and {shopping_dict[ingredient.name]}")
-            shopping_dict[ingredient.name] = a.sum(shopping_dict[ingredient.name])
+            try:
+                shopping_dict[ingredient.name] = a.sum(shopping_dict[ingredient.name])
+            except IncompatibleAmountTypes as e:
+                raise UnableToCalculateSumOfIngredient(f"Unable to calculate sum for ingredient: \"{ingredient.name}\", " +
+                                                       f"got the following error: {e}")
     return shopping_dict
 
 def print_banner(version):
