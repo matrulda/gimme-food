@@ -39,8 +39,6 @@ class ParseRecipe(object):
         log.debug(f"Request url: {request_url}")
         response = requests.get(request_url, auth=(ica_user, ica_pass))
         if response.ok:
-            with open("ica_test.json", "w") as f:
-                json.dump(response.json(), f, indent=4)
             response_dict = self.convert_to_gimme_food_dict(response.json())
             # Add some final touches
             ica_recipe = {"recipe": response_dict}
