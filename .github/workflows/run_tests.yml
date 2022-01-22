@@ -20,7 +20,7 @@ jobs:
         run: pip install --upgrade -e . -r requirements/dev
   
       - name: Run pytest
-        run: pytest --cov=gimme_food tests/
+        run: pytest --cov=gimme_food --cov-report=xml tests/
   
       - name: Update data on codecov
         uses: codecov/codecov-action@v2
