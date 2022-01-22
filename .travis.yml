@@ -1,9 +1,0 @@
-language: python
-python:
-  - '3.7'
-install:
-  - pip install --upgrade -e . -r ./requirements/dev
-script:
-  - pytest --cov=gimme_food tests/
-after_success:
-  - codecov
