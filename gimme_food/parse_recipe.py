@@ -20,7 +20,7 @@ class ParseRecipe(object):
             with open(file_name, "w") as f:
                 json.dump(recipe, f, indent=4, ensure_ascii=False)
         else:
-            raise NotImplementedError("Sorry, only ICA recipes are supported for the moment")
+            raise NotImplementedError("Sorry, only ICA recipes are supported at the moment")
 
     @staticmethod
     def get_recipe_file_name(recipe_name):
@@ -67,6 +67,7 @@ class ParseRecipe(object):
                                         "Otherwise, type the name you want to use instead: ")
                     if user_answer.lower() != "yes" and user_answer.lower() != "y":
                         i_name = user_answer
+                        i_name_words = user_answer.split(" ")
                 if "Port" in i_name_words[0]:
                     potential_i_name = " ".join(i_name_words[1:])
                     user_answer = input(f"\nShould, {i_name}, be interpreted as " +
