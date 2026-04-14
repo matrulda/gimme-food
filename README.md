@@ -1,6 +1,6 @@
 # Gimme food
-[![Build Status](https://travis-ci.com/matrulda/gimme-food.svg?branch=master)](https://travis-ci.com/matrulda/gimme-food)
-[![codecov](https://codecov.io/gh/matrulda/gimme-food/branch/master/graph/badge.svg)](https://codecov.io/gh/matrulda/gimme-food)
+[![Test status](https://github.com/matrulda/gimme-food/actions/workflows/run_tests.yml/badge.svg)](https://github.com/matrulda/gimme-food/actions/workflows/run_tests.yml)
+[![Code Coverage](https://codecov.io/gh/matrulda/gimme-food/branch/master/graph/badge.svg)](https://codecov.io/gh/matrulda/gimme-food)
 
 
 `Gimme food` is an application to easily make a shopping list from your favorite recipes when it's time for the weekly shopping or "storhandling" as we say in Swedish. The recipes are chosen randomly, but you are able to tweak the list of chosen recipes by specifying wanted ingredients.
